@@ -1,0 +1,50 @@
+body{
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+}
+#vehicle{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    width: 500px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#seats{
+     margin-top: 15px;
+     margin-left: 10px;
+     font-size: 1.5em;
+     font-weight: bold;
+}
+#main{
+    font-size: 2em;
+}
+#ptrmt{
+ margin-top: 10px;
+ margin-left: 15px;
+ font-size: 1.2em;
+}
+#sub{
+  margin-left:10px;
+  font-size: 1em;
+}
+table{
+    background-color: hsla(0, 0%, 16%, 0.137);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+tr{
+    
+    padding: 5px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+th{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: hsl(0, 0%, 10%, 0.137);
+}
